@@ -1,0 +1,29 @@
+{
+  "name": "jio-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "#1.11.1",
+    "underscore": "~1.7.0",
+    "jquery-tiny-pubsub": "~0.7.0",
+    "fastclick": "~1.0.3",
+    "jquery-waypoints": "~2.0.5",
+    "bootstrap-sass-official": "~3.3.1",
+    "jquery.easing": "~1.3.1",
+    "modernizr": "~2.8.3",
+    "bootstrap": "~2.3.2"
+  },
+  "overrides": {
+    "bootstrap-sass-official": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss"
+      ]
+    },
+    "jquery-tiny-pubsub": {
+      "main": "dist/ba-tiny-pubsub.js",
+      "dependencies": {
+        "jquery": "1.11.1"
+      }
+    }
+  }
+}

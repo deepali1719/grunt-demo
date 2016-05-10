@@ -1,0 +1,12 @@
+.transition1
+{
+   width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 6s; /* Safari */
+    transition: width 2s;
+}
+
+.transition1:hover {
+    width: 300px;
+}
